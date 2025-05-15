@@ -1,0 +1,61 @@
+body{
+    font-family: "Inter", sans-serif;
+    background: #000;
+    color: #fff;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    align-items: center;
+}
+.center{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    background-color:  hsl(244, 38%, 16%);
+    border-radius: 0.5rem;
+    width: 65rem;
+    height: 28rem;
+}
+.text{
+    max-width: 22rem;
+    margin: 3rem;
+}
+.text h1{
+    font-size: revert;
+}
+.text p{
+    line-height:1.5rem;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.card_text{
+    color: hsl(277, 64%, 61%);
+}
+.satas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 3rem;
+    margin-top: 4rem;
+}
+.sata p:first-child{
+    font-size: 1.5rem;
+    color: white;
+    line-height: 0;
+}
+.sata_2 p:first-child{
+    font-size: 1.5rem;
+    color: white;
+    line-height: 0;
+}
+.sata_3 p:first-child{
+    font-size: 1.5rem;
+    color: white;
+    line-height: 0;
+}
+.image img{
+    border-radius: 0.5rem;
+    margin-left: 3rem;
+}
